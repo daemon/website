@@ -1,0 +1,154 @@
+.container {
+    width: 700px;
+}
+
+.header {
+    text-align: justify;
+}
+
+.top-pad {
+    padding-top: 100px;
+}
+
+.sec-header {
+    width: 100%;
+    border-bottom: 1px solid #aaa;
+}
+
+.pub-title {
+    font-size: 15pt;
+}
+
+.pub-listing {
+    font-size: 12pt;
+    width: 100%;
+    padding-bottom: 16px;
+}
+
+.no-pad-pub-listing {
+    font-size: 12pt;
+}
+
+.pub-conf {
+    color: #666;
+    font-weight: 300;
+}
+
+.job-title {
+    font-size: 15pt;
+    float: left;
+    font-weight: 450;
+}
+
+.job-company {
+    font-size: 15pt;
+    float: right;
+}
+
+.job-row {
+    width: 100%;
+}
+
+.job-time {
+    font-style: italic;
+    color: #666;
+    float: right;
+    font-size: 12pt;
+    font-weight: 300;
+    margin-left: 16px;
+}
+
+.external-links .dblp {
+    color: #f4c842;
+}
+
+.external-links .dblp:hover {
+    color: #e4b832;
+}
+
+.external-links .scholar:hover {
+    color: #326de4;
+}
+
+.external-links .linkedin {
+    color: #2d82b7;
+}
+
+.external-links .linkedin:hover {
+    color: #2d72a7;
+}
+
+.external-links .github {
+    color: #24292e;
+}
+
+.external-links .github:hover {
+    color: #44494e;
+}
+
+li {
+    text-align: justify;
+}
+
+.big-font {
+    font-size: 14pt;
+}
+
+.email {
+    font-weight: 250;
+    color: #666;
+}
+
+.yr-header {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 18pt;
+    border-bottom: #aaa 1px dotted;
+
+}
+
+.pub-cat {
+    float: right;
+}
+
+.pub-cat * {
+    /*border-radius: 50%;*/
+    display: inline-block;
+    height: 12pt;
+    width: 12pt;
+    margin-left: 5pt;
+    background-color: #aaa;
+}
+
+.pub-cat *:hover {
+    opacity: 0.7;
+    cursor: help;
+}
+
+.pub-cat * {
+    text-align: center;
+    font-size: 6pt;
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+}
+
+.pub-nlp {
+    background-color: #ffcb54;
+}
+
+.pub-ir {
+    background-color: #ffa8a8;
+}
+
+.pub-ui {
+    background-color: #ffa8fc;
+}
+
+.author-line {
+    width: 100%;
+}
+
+.pub-sp {
+    background-color: #8cf7ff;
+}
