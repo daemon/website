@@ -46,11 +46,11 @@
             <div class="yr-header">2020</div>
             <div class="pub-listing pt-3">
                 <div class="pub-title">Showing Your Work Doesn't Always Work</div>
-                <div class="author-line"><b>Raphael Tang</b>, Jaejun Lee, Ji Xin, Xinyu Liu, Yaoliang Yu, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-nlp"></span></span></div>
+                <div class="author-line"><b>Raphael Tang</b>, Jaejun Lee, Ji Xin, Xinyu Liu, Yaoliang Yu, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-nlp"></span><span class="pub-st"></span></span></div>
                 <i class="pub-conf">ACL 2020</i><br>
             </div>
             <div class="pub-listing pt-3">
-                <div class="pub-title">DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference</div>
+                <div class="pub-title"><a href="https://arxiv.org/abs/2004.12993">DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference</a></div>
                 <div class="author-line">Ji Xin, <b>Raphael Tang</b>, Jaejun Lee, Yaoliang Yu, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-nlp"></span></span></div>
                 <i class="pub-conf">ACL 2020</i><br>
             </div>
@@ -93,7 +93,7 @@
             </div>
             <div class="pub-listing pt-3">
                 <div class="pub-title"><a href="https://cs.uwaterloo.ca/~jimmylin/publications/Lee_etal_EMNLP2019demo.pdf">Honkling: In-Browser Personalization for Ubiquitous Keyword Spotting</a></div>
-                <div class="author-line">Jaejun Lee, <b>Raphael Tang</b>, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-sp"></span><span class="pub-ui"></span></span></div>
+                <div class="author-line">Jaejun Lee, <b>Raphael Tang</b>, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-hci"></span><span class="pub-sp"></span></span></div>
                 <i class="pub-conf">EMNLP-IJCNLP 2019 Demo</i><br>
             </div>
             <div class="pub-listing pt-3">
@@ -115,12 +115,12 @@
   
             <div class="pub-listing pt-3">
                 <div class="pub-title"><a href="https://cs.uwaterloo.ca/~jimmylin/publications/Tang_etal_SIGIR2019.pdf">Yelling at Your TV: An Analysis of Speech Recognition Errors and Subsequent User Behavior on Entertainment Systems</a></div>
-                <div class="author-line"><b>Raphael Tang</b>, Ferhan Ture, Jimmy Lin<span class="pub-cat"><span class="pub-ir"></span><span class="pub-nlp"></span><span class="pub-sp"></span><span class="pub-ui"></span></span></div>
+                <div class="author-line"><b>Raphael Tang</b>, Ferhan Ture, Jimmy Lin<span class="pub-cat"><span class="pub-hci"></span><span class="pub-ir"></span><span class="pub-nlp"></span><span class="pub-sp"></span></span></div>
                 <i class="pub-conf">SIGIR 2019</i>
             </div>
             <div class="pub-listing pt-3">
                 <div class="pub-title"><a href="https://dl.acm.org/citation.cfm?id=3308693">Universal Voice-Enabled User Interfaces using JavaScript</a></div>
-                <div class="author-line">Jaejun Lee, <b>Raphael Tang</b>, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-sp"></span><span class="pub-ui"></span></span></div>
+                <div class="author-line">Jaejun Lee, <b>Raphael Tang</b>, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-hci"></span><span class="pub-sp"></span></span></div>
                 <i class="pub-conf">IUI 2019 Demo</i>
             </div>
             <div class="pub-listing pt-3">
@@ -147,7 +147,7 @@
             </div>
             <div class="pub-listing pt-3">
                 <div class="pub-title"><a href="https://arxiv.org/abs/1810.12859">JavaScript Convolutional Neural Networks for Keyword Spotting in the Browser: An Experimental Analysis</a></div>
-                <div class="author-line">Jaejun Lee, <b>Raphael Tang</b>, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-sp"></span><span class="pub-ui"></span></span></div>
+                <div class="author-line">Jaejun Lee, <b>Raphael Tang</b>, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-hci"></span><span class="pub-sp"></span></span></div>
                 <i class="pub-conf">arXiv</i>
             </div>
             <div class="pub-listing pt-3">
@@ -223,12 +223,14 @@ $(document).ready(function() {
     $(".pub-ir").prop("title", "Information retrieval");
     $(".pub-nlp").prop("title", "Natural language processing");
     $(".pub-sp").prop("title", "Speech processing");
-    $(".pub-ui").prop("title", "User interfaces");
+    $(".pub-st").prop("title", "Statistics");
+    $(".pub-hci").prop("title", "Human-computer interaction");
     $(".pub-dl").html("DL");
     $(".pub-ir").html("IR");
     $(".pub-nlp").html("NLP");
     $(".pub-sp").html("SP");
-    $(".pub-ui").html("UI");
+    $(".pub-hci").html("HCI");
+    $(".pub-st").html("ST");
 });
 </script>
 </html>

@@ -141,7 +141,7 @@ li {
     background-color: #ffa8a8;
 }
 
-.pub-ui {
+.pub-hci {
     background-color: #ffa8fc;
 }
 
@@ -151,4 +151,8 @@ li {
 
 .pub-sp {
     background-color: #8cf7ff;
+}
+
+.pub-st {
+    background-color: #8080ff;
 }
