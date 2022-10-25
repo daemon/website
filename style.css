@@ -117,7 +117,7 @@ li {
     height: 12pt;
     width: 12pt;
     margin-left: 5pt;
-    background-color: #aaa;
+    background-color: rgb(222, 222, 222);
 }
 
 .pub-cat *:hover {
@@ -134,15 +134,15 @@ li {
 }
 
 .pub-nlp {
-    background-color: #ffcb54;
+    background-color: rgb(253, 218, 134);
 }
 
 .pub-ir {
-    background-color: #ffa8a8;
+    background-color: rgb(255, 193, 188);
 }
 
 .pub-hci {
-    background-color: #ffa8fc;
+    background-color: rgb(247, 201, 255);
 }
 
 .author-line {
@@ -150,9 +150,13 @@ li {
 }
 
 .pub-sp {
-    background-color: #8cf7ff;
+    background-color: rgb(156, 231, 255);
 }
 
 .pub-st {
-    background-color: #8080ff;
+    background-color: rgb(187, 240, 168);
+}
+
+.pub-cv {
+    background-color: rgb(217 ,211, 255);
 }

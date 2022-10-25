@@ -27,7 +27,7 @@
             <div class="col-lg-8">
                 <div class="header">
                 <h1 class="text-center">Hi, I'm Ralph.</h1><br>
-                I'm a machine learning engineer working on speech and language technology. I publish under the guidance of <a href="https://cs.uwaterloo.ca/~jimmylin/">Jimmy Lin</a> at the junction of natural language processing, speech recognition, and deep learning.<br><br>
+                I'm a research scientist working on speech and language technology. I publish under the guidance of <a href="https://cs.uwaterloo.ca/~jimmylin/">Jimmy Lin</a> at the junction of natural language processing, speech recognition, and deep learning.<br><br>
 		I've served as a reviewer for AAAI, AACL-IJCNLP, ACL, EMNLP, NAACL, a CVPR workshop, and an ICML workshop.</div>
             </div>
             <i class="col-lg-2"></i>
@@ -45,9 +45,30 @@
             <div class="sec-header"><h3>Papers</h3></div>
 	    <div class="yr-header">2022</div>
             <div class="pub-listing pt-3">
-                <div class="pub-title">Temporal Early Exiting for Streaming Speech Commands Recognition</div>
+                <div class="pub-title"><a href="https://arxiv.org/abs/2210.04885">What the DAAM: Interpreting Stable Diffusion Using Cross Attention</a></div>
+                <div class="author-line"><b>Raphael Tang</b>, Akshat Pandey, Zhiying Jiang, Gefei Yang, Karun Kumar, Jimmy Lin, Ferhan Ture<span class="pub-cat"><span class="pub-cv"></span><span class="pub-dl"></span><span class="pub-nlp"></span></span></div>
+                <i class="pub-conf">arXiv</i><br>
+            </div> 
+            <div class="pub-listing pt-3">
+                <div class="pub-title"><a href="/papers/tang2022speechnet.pdf">SpeechNet: Weakly Supervised, End-to-End Speech Recognition at Industrial Scale</a></div>
+                <div class="author-line"><b>Raphael Tang</b>, Karun Kumar, Gefei Yang, Akshat Pandey, Yajie Mao, Vladislav Belyaev, Madhuri Emmadi, Craig Murray, Ferhan Ture, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-sp"></span></span></div>
+                <i class="pub-conf">EMNLP 2022 Industry</i><br>
+            </div>
+  
+            <div class="pub-listing pt-3">
+                <div class="pub-title"><a href="https://arxiv.org/abs/2208.00483">Building an Efficiency Pipeline: Commutativity and Cumulativeness of Efficiency Operators for Transformers</a></div>
+                <div class="author-line">Ji Xin, <b>Raphael Tang</b>, Zhiying Jiang, Yaoliang Yu, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-nlp"></span></span></div>
+                <i class="pub-conf">arXiv</i><br>
+            </div>
+             <div class="pub-listing pt-3">
+                <div class="pub-title"><a href="https://cs.uwaterloo.ca/~jimmylin/publications/Tang_etal_ICASSP2022.pdf">Temporal Early Exiting for Streaming Speech Commands Recognition</a></div>
                 <div class="author-line"><b>Raphael Tang</b>, Karun Kumar, ..., G. Craig Murray, Jimmy Lin<span class="pub-cat"><span class="pub-dl"></span><span class="pub-sp"></span></span></div>
                 <i class="pub-conf">ICASSP 2022</i><br>
+            </div>
+            <div class="pub-listing pt-3">
+                <div class="pub-title">Methods and Systems for Voice Control</div>
+                <div class="author-line"><b>Raphael Tang</b>, Karun Kumar, ..., G. Craig Murray<span class="pub-cat"><span class="pub-dl"></span><span class="pub-sp"></span></span></div>
+                <i class="pub-conf">Filed US Patent</i><br>
             </div>
 
             <div class="yr-header">2021</div>
@@ -286,6 +307,8 @@ $(document).ready(function() {
     $(".pub-sp").prop("title", "Speech processing");
     $(".pub-st").prop("title", "Statistics");
     $(".pub-hci").prop("title", "Human-computer interaction");
+    $(".pub-cv").prop("title", "Computer vision");
+    $(".pub-cv").html("CV");
     $(".pub-dl").html("DL");
     $(".pub-ir").html("IR");
     $(".pub-nlp").html("NLP");
