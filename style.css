@@ -158,5 +158,20 @@ li {
 }
 
 .pub-cv {
-    background-color: rgb(217 ,211, 255);
+    background-color: rgb(217, 211, 255);
+}
+
+.noteworthy {
+    position: relative;
+}
+
+.noteworthy::before {
+    background-color: rgb(255, 244, 143);
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 40%;
+    left: -2px;
+    bottom: 3px;
+    z-index: -10;
 }
