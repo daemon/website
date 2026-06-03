@@ -154,12 +154,16 @@ li {
     background-color: rgb(156, 231, 255);
 }
 
+.pub-geo {
+    background-color: rgb(184, 245, 162);
+}
+
 .pub-st {
-    background-color: rgb(187, 240, 168);
+    background-color: rgb(247, 201, 255);
 }
 
 .pub-cv {
-    background-color: rgb(217, 211, 255);
+    background-color: rgb(199, 179, 255);
 }
 
 .noteworthy {
